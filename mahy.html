@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deals With FusionX</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f8f9fa;
+        color: #333;
+      }
+      header {
+        background: #2c3e50;
+        color: white;
+        padding: 10px 20px; /* Reduced height */
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 22px; /* Smaller title */
+      }
+      header p {
+        font-size: 13px; /* Smaller tagline */
+        margin: 5px 0 0;
+      }
+
+      /* Hero Section */
+      .hero {
+        background: url("") no-repeat center center/cover;
+        height: 180px; /* Reduced height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        color: white;
+      }
+      .hero::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .hero-text {
+        position: relative;
+        z-index: 2;
+        padding: 0 10px;
+      }
+      .hero-text h2 {
+        font-size: 24px; /* Smaller headline */
+        margin-bottom: 5px;
+      }
+      .hero-text p {
+        font-size: 14px; /* Smaller subtitle */
+        margin: 0;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+        padding: 20px 0;
+      }
+      .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+        transition: 0.3s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: contain;
+        border-radius: 5px;
+      }
+      .card h3 {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #2c3e50;
+      }
+      .card p {
+        font-size: 14px;
+        color: #555;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background: #27ae60;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      .btn:hover {
+        background: #219150;
+      }
+      footer {
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+      }
+      footer p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="img/FusionX logo.png" width="100px" />
+      <h1>💪 Deals With FusionX</h1>
+      <p>Trusted & Affordable Products | Amazon Affiliate</p>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero-text">
+        <h2>Transform Your Lifestyle</h2>
+        <p>Shop the best Fitness & Skincare products today!</p>
+      </div>
+    </div>
+
+    <!-- Products Section -->
+    <div class="container">
+      <h2>🔥 Popular Fitness Products</h2>
+      <div class="products">
+        <div class="card">
+          <img src="img/dumbells.jpg" alt="Dumbbells" />
+          <h3>5kg Dumbbells</h3>
+          <p>Build strength at home. Perfect for daily workouts.</p>
+          <a href="https://amzn.to/3JCBJzp" target="_blank" class="btn"
+            >Buy Now</a
+          >
+        </div>
+        <div class="card">
+          <img src="img/twister.jpg" alt="Tummy Trimmer" />
+          <h3>Tummy Trimmer</h3>
+          <p>Compact and effective tool for core & abs workout.</p>
+          <a href="https://amzn.to/4mPPFES" target="_blank" class="btn"
+            >Buy Now</a
+          >
+        </div>
+
+        <div class="card">
+          <img src="img/pullup.jpg" width="100px" alt="Pull-up Bar" />
+          <h3>Hanging Chain Pull-Up Bar</h3>
+          <p>Do pull-ups anywhere! Strong and reliable.</p>
+          <a href="https://amzn.to/45KX3KO" target="_blank" class="btn"
+            >Buy Now</a
+          >
+        </div>
+
+        <div class="card">
+          <img src="img/grip.jpg" width="100px" alt="Hand Gripper" />
+          <h3>Hand Gripper</h3>
+          <p>Strengthen your grip and forearms with ease.</p>
+          <a href="https://amzn.to/4fFVrXa" target="_blank" class="btn"
+            >Buy Now</a
+          >
+        </div>
+      </div>
+
+      <h2>✨ Skincare Essentials</h2>
+      <div class="products">
+        <div class="card">
+          <img src="img/physio gel.jpg" alt="Physiogel Moisturizer" />
+          <h3>Physiogel Moisturizer</h3>
+          <p>Gentle, dermatologist recommended. For all skin types.</p>
+          <a href="https://amzn.to/4mMLBoO" target="_blank" class="btn"
+            >Buy Now</a
+          >
+        </div>
+
+        <div class="card">
+          <img src="img/dot & key.jpg" width="100px" />
+          <h3>Dot & Key Oil-Free Moisturizer</h3>
+          <p>Non-greasy hydration with 5 ceramides & hyaluronic acid.</p>
+          <a href="https://amzn.to/3JkQmr6" target="_blank" class="btn"
+            >Buy Now</a
+          >
+        </div>
+
+        <div class="card">
+          <img src="img/venusia.jpg" alt="Venusia Moisturizer" />
+          <h3>Venusia Moisturizer</h3>
+          <p>Budget-friendly, nourishing formula for daily use.</p>
+          <a href="https://amzn.to/45Ho8yh" target="_blank" class="btn"
+            >Buy Now</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Disclaimer: Buying through these links supports us 🙌</p>
+      <p>© 2025 Deals With FusionX</p>
+    </footer>
+  </body>
+</html>
